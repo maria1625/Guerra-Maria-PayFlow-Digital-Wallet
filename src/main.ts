@@ -18,7 +18,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('PayFlow - Digital Wallet')
-    .setDescription('The PayFlow API documentation')
+    .setDescription('Guerra Ruiz Maria del Carmen')
     .setVersion('1.0')
     .addBearerAuth()
     .build();
