@@ -11,6 +11,7 @@ import { AccountModule } from './modules/account/account.module';
 import { TransactionModule } from './modules/transaction/transaction.module';
 import { NotificationsModule } from './modules/notifications/notifications.module';
 import { MailModule } from './mail/mail.module';
+import { EstudiantesModule } from './estudiantes/estudiantes.module';
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { MailModule } from './mail/mail.module';
     TransactionModule,
     NotificationsModule,
     MailModule,
+    EstudiantesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
